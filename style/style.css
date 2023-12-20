@@ -23,7 +23,8 @@ p
 
 img
 {
-	border: 0;}
+	border: 0;
+}
 
 h1, h2, h3, h4, h5, h6 
 {
@@ -80,7 +81,7 @@ a:hover
 
 .right
 {
-	float: right; 
+	float: right;
 	width: auto;
 	margin-left: 10px;
 }
@@ -125,14 +126,14 @@ ol li
 #main, #logo, #menubar, #site_content, #footer
 {
 	font-size: 14pt;
-	margin-left: auto; 
+	margin-left: auto;
 	margin-right: auto;
 }
 
 #header
 {
 	background: #F79F00;
-	height: 240px;
+	height: 230px;
 }
 
 #logo
@@ -181,7 +182,7 @@ ol li
 #menubar
 {
 	width: 877px;
-	height: 72px;
+	height: 62px;
 	padding: 0;
 	background: #5B2660 url(menu.png) repeat-x;
 } 
@@ -202,10 +203,9 @@ ul#menu li a
 {
 	letter-spacing: 0.0em;
 	font: normal 100% 'times new roman', 'times', serif;
-	display: block; 
-	float: left; 
-	height: 37px;
-	padding: 29px 26px 6px 26px;
+	display: block;
+	float: left;
+	padding: 20px 26px 20px 26px;
 	text-align: justify;
 	color: #FFF;
 	text-transform: uppercase;
@@ -224,14 +224,13 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 	width: 837px;
 	overflow: hidden;
 	margin: 0 auto 0 auto;
-	padding: 20px 24px 20px 37px;
-	background: #FFF url(content.png) repeat-y;
+	padding: 20px 20px 20px 20px;
+	background: #FFF repeat-y;
 } 
 
 #content
 {
 	text-align: justify;
-	width: 837px;
 	padding: 0;
 }
 
@@ -269,7 +268,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #footer
 {
-	width: 878px;
+	width: 877px;
 	font: normal 100% 'times new roman', 'times', serif;
 	height: 33px;
 	padding: 24px 0 5px 0;
@@ -382,7 +381,7 @@ table
 	margin: 10px 0 30px 0;
 }
 
-table tr th, table tr td
+table tr th
 {
 	background: #3B3B3B;
 	color: #FFF;
@@ -395,4 +394,6 @@ table tr td
 	background: #F0EFE2;
 	color: #47433F;
 	border-top: 1px solid #FFF;
+	padding: 7px 4px;
+	text-align: justify;
 }
