@@ -34,6 +34,12 @@ h1, h2, h3, h4, h5, h6
 	padding: 20px 0 5px 0;
 }
 
+sup
+{
+	vertical-align: super;
+	font-size: smaller;
+}
+
 h2
 {
 	font: normal 175% 'times new roman', 'times', serif;
@@ -387,6 +393,7 @@ table tr th
 	color: #FFF;
 	padding: 7px 4px;
 	text-align: justify;
+	vertical-align: top;
 }
 
 table tr td
@@ -396,4 +403,5 @@ table tr td
 	border-top: 1px solid #FFF;
 	padding: 7px 4px;
 	text-align: justify;
+	vertical-align: top;
 }
