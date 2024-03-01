@@ -19,11 +19,27 @@ body
 p
 {
 	padding: 0 0 10px 0;
-	line-height: 1.5em;}
+	line-height: 1.5em;
+}
 
 img
 {
 	border: 0;
+}
+
+#site_content
+{
+	width: 837px;
+	overflow: hidden;
+	margin: 0 auto 0 auto;
+	padding: 20px 20px 20px 20px;
+	background: #FFF repeat-y;
+}
+
+#content
+{
+	text-align: justify;
+	padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 
@@ -109,24 +125,70 @@ blockquote
 
 ul
 {
-	margin: 0px 0 22px 20px;
+	margin: 0 20px 12px 20px;
+	text-align: justify;
+	list-style-type: disc;
+	list-style-position: inside
 }
 
 ul li
 {
-	margin: 0 0 8px 0; 
+	margin: 0 0 5px 10px;
+	text-align: justify;
 	padding: 0 0 4px 5px;
+	list-style-type: disc;
+	line-height: 1.0em;
+	list-style-position: inside
 }
+
+ul.unmarked, ul.tight
+{
+	list-style-type: none
+}
+
+strong + ul.unmarked, strong + ul.tight
+{
+	margin-top: 12px;
+	padding-top: 4px
+}
+
+ul.unmarked li
+{
+	list-style-type: none
+}
+
+ul.tight li
+{
+	margin-bottom: 0;
+	list-style-type: none
+}
+
 ol
 {
-	margin: 0px 0 22px 20px;
-	list-style-type: none
+	margin: 0 20px 12px 20px;
+	text-align: justify
 }
 
 ol li
 {
-	margin: 0 0 8px 0;
-	list-style-type: none
+	margin: 0 0 5px 10px;
+	text-align: justify;
+	padding: 0 0 4px 5px;
+	line-height: 1.0em
+}
+
+.inline-list {
+	list-style: none;
+	margin: 0 20px 12px 20px;
+	overflow: hidden;
+	padding: 0 0 4px 5px;
+}
+
+.inline-list > li {
+	display: block;
+	float: left;
+	list-style: none;
+	padding: 0 20px 0 0;
 }
 
 #main, #logo, #menubar, #site_content, #footer
@@ -223,53 +285,6 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 {
 	color: #FFF;
 	background: #3F1B41 url(menu_select.png) repeat-x;
-}
-
-#site_content
-{
-	width: 837px;
-	overflow: hidden;
-	margin: 0 auto 0 auto;
-	padding: 20px 20px 20px 20px;
-	background: #FFF repeat-y;
-} 
-
-#content
-{
-	text-align: justify;
-	padding: 0;
-}
-
-#content ul
-{
-	margin: 20px 0 20px 0px;
-}
-
-#content ul li
-{
-	list-style-type: none;
-	margin: 0 0 0 0; 
-	padding: 0 0 4px 25px;
-	line-height: 1.0em;
-}
-
-.inline-list {
-	list-style: none;
-	margin-left: -1.25rem;
-	margin-right: 0;
-	margin: 0 auto 1.25rem auto;
-	margin-bottom: 0.625rem;
-	overflow: hidden;
-	padding: 0;
-}
-.inline-list > li {
-	display: block;
-	float: left;
-	list-style: none;
-	margin-left: 1.25rem;
-}
-.inline-list > li > * {
-	display: block;
 }
 
 #footer
