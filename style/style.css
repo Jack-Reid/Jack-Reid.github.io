@@ -115,6 +115,19 @@ a:hover
 	margin: 20px auto;
 }
 
+.float
+{
+	float: right;
+	width: 30%;
+	margin: 0;
+	text-align: center;
+}
+
+.container
+{
+	overflow: hidden;
+}
+
 blockquote
 {
 	margin: 20px 0; 
