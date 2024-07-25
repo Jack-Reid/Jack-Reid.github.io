@@ -1,6 +1,7 @@
 html
 {
 	height: 100%;
+	font-size: 14pt;
 }
 
 *
@@ -23,10 +24,9 @@ img
 
 .site_content
 {
-	font-size: 14pt;
 	text-align: justify;
-	width: 65%;
-	overflow: hidden;
+	min-width: 600px;
+	width: 65%;	
 	margin: 0 auto 0 auto;
 	padding: 20px 20px 20px 20px;
 	background: #FFF repeat-y;
@@ -40,9 +40,9 @@ img
 
 .menubar
 {
-	font-size: 14pt;
 	margin-left: auto;
 	margin-right: auto;
+	min-width: 600px;
 	width: 65%;
 	height: 62px;
 	padding: 0 20px 0 20px;
@@ -51,9 +51,9 @@ img
 
 .logo
 {
-	font-size: 14pt;
 	margin-left: auto;
 	margin-right: auto;
+	min-width: 600px;
 	width: 65%;
 	position: relative;
 	height: 168px;
@@ -99,17 +99,15 @@ img
 
 .footer
 {
-	font-size: 14pt;
 	margin-left: auto;
 	margin-right: auto;
-	width: 877px;
+	width: 100%;
 	font: normal 100% 'times new roman', 'times', serif;
 	height: 33px;
 	padding: 24px 0 5px 0;
 	text-align: center; 
 	background: #29425E url(footer.png) repeat-x;
 	color: #FFF;
-	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
 
@@ -328,10 +326,9 @@ ul.menu li a
 	font: normal 100% 'times new roman', 'times', serif;
 	display: block;
 	float: left;
-	padding: 20px 26px 20px 26px;
+	padding: 20px 20px 20px 20px;
 	text-align: justify;
 	color: #FFF;
-	text-transform: uppercase;
 	text-decoration: none;
 	background: transparent;
 } 
@@ -364,4 +361,82 @@ table tr td
 	padding: 7px 4px;
 	text-align: justify;
 	vertical-align: top;
+}
+
+.mobilemenu {
+	display: none;
+	overflow: hidden;
+	background-color: #F79F00;
+	position: relative;
+}
+.mobilemenu #links {
+	display: none;
+}
+.mobilemenu a {
+	color: white;
+	padding: 18px 18px 18px 18px;
+	text-decoration: none;
+	font-size: 11pt;
+	display: block;
+}
+.mobilemenu a.icon {
+	background: #F79F00;
+	color: white;
+	display: block;
+	position: relative;
+	right: 0;
+	top: 0;
+}
+.mobilemenu a:hover {
+	background-color: #F05A00;
+	color: black;
+}
+.active {
+	background-color: #F05A00;
+	color: white;
+}
+
+@media (max-width: 600px) {
+	html
+	{
+		font-size: 11pt;
+	}
+	.site_content
+	{
+		width: 100%;
+		min-width: 0;
+		margin: 0 0 0 0;
+		padding: 20px 20px 20px 20px;
+	}
+	.header
+	{
+		height: 190px;
+		min-width: 0;
+		width: 100%;
+	}
+	.logo
+	{
+		margin-left: 0;
+		margin-right: 0;
+		height: 138px;
+		width: 100%;
+		min-width: 0;
+	}
+	.menubar
+	{
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+		min-width: 0;
+		height: 54px;
+		padding: 0 0 0 0;
+	}
+	.menu
+	{
+		display: none;
+	}
+	.mobilemenu
+	{
+		display: block;
+	}
 }
