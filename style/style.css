@@ -3,6 +3,12 @@ html
 	height: 100%;
 	font-size: 14pt;
 }
+@media (max-width: 600px) {
+	html
+	{
+		font-size: 11pt;
+	}
+}
 
 *
 {
@@ -31,11 +37,28 @@ img
 	padding: 20px 20px 20px 20px;
 	background: #FFF repeat-y;
 }
+@media (max-width: 600px) {
+	.site_content
+	{
+		margin: 0 0 0 0;
+		width: 100%;
+		min-width: 0;
+		padding: 20px 20px 20px 20px;
+	}
+}
 
 .header
 {
 	background: #F79F00;
 	height: 230px;
+}
+@media (max-width: 600px) {
+	.header
+	{
+		height: 190px;
+		min-width: 0;
+		width: 100%;
+	}
 }
 
 .menubar
@@ -48,6 +71,17 @@ img
 	padding: 0 20px 0 20px;
 	background: #5B2660 url(menu.png) repeat-x;
 }
+@media (max-width: 600px) {
+	.menubar
+	{
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+		min-width: 0;
+		height: 54px;
+		padding: 0 0 0 0;
+	}
+}
 
 .logo
 {
@@ -59,6 +93,16 @@ img
 	height: 168px;
 	background: #8B0073 url(logo.png) 100%;
 	padding: 0 20px 0 20px;
+}
+@media (max-width: 600px) {
+	.logo
+	{
+		margin-left: 0;
+		margin-right: 0;
+		height: 138px;
+		width: 100%;
+		min-width: 0;
+	}
 }
 
 .logo_text 
@@ -311,6 +355,12 @@ ul.menu, ul.menu li
 	margin: 0 -20px 0 -20px; 
 	padding: 0;
 }
+@media (max-width: 600px) {
+	ul.menu
+	{
+		display: none;
+	}
+}
 
 ul.menu li
 {
@@ -369,6 +419,12 @@ table tr td
 	background-color: #F79F00;
 	position: relative;
 }
+@media (max-width: 600px) {
+	.mobilemenu
+	{
+		display: block;
+	}
+}
 .mobilemenu #links {
 	display: none;
 }
@@ -394,49 +450,4 @@ table tr td
 .active {
 	background-color: #F05A00;
 	color: white;
-}
-
-@media (max-width: 600px) {
-	html
-	{
-		font-size: 11pt;
-	}
-	.site_content
-	{
-		width: 100%;
-		min-width: 0;
-		margin: 0 0 0 0;
-		padding: 20px 20px 20px 20px;
-	}
-	.header
-	{
-		height: 190px;
-		min-width: 0;
-		width: 100%;
-	}
-	.logo
-	{
-		margin-left: 0;
-		margin-right: 0;
-		height: 138px;
-		width: 100%;
-		min-width: 0;
-	}
-	.menubar
-	{
-		margin-left: 0;
-		margin-right: 0;
-		width: 100%;
-		min-width: 0;
-		height: 54px;
-		padding: 0 0 0 0;
-	}
-	.menu
-	{
-		display: none;
-	}
-	.mobilemenu
-	{
-		display: block;
-	}
 }
