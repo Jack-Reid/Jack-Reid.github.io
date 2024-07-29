@@ -299,16 +299,16 @@ ul.unmarked
 
 ul.tight
 {
-	list-style-type: none
+	margin-bottom: 12px;
 }
 
-strong + ul.unmarked, strong + ul.tight
+strong + ul.unmarked
 {
 	margin-top: 12px;
 	padding-top: 4px
 }
 
-ul.unmarked li, ul.tight li
+ul.unmarked li
 {
 	margin-top: 0;
 	list-style-type: none;
