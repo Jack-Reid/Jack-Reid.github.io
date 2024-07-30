@@ -302,37 +302,52 @@ ul.tight
 	margin-bottom: 12px;
 }
 
-strong + ul.unmarked
-{
-	margin-top: 12px;
-	padding-top: 4px
-}
-
 ul.unmarked li
 {
 	margin-top: 0;
 	list-style-type: none;
 	line-height: 1.0em;
+	margin-left: 25px;
+	text-indent: -15px;
+}
+
+ul.unmarked li > ul
+{
+	margin-left: 5px;
 }
 
 ul.tight li
 {
-	margin-bottom: 0
+	margin-bottom: 0;
 }
 
-.inline-list {
+strong + ul.unmarked
+{
+	margin-top: 12px;
+	padding-top: 4px;
+}
+
+ul.inline {
 	list-style: none;
-	margin: 0 20px 12px 20px;
 	overflow: hidden;
 	padding: 0 0 4px 5px;
 }
 
-.inline-list > li {
+ul.inline > li {
 	display: block;
 	float: left;
 	list-style: none;
 	margin-top: 0;
 	padding: 0 20px 0 0;
+}
+
+@media (min-width: 600px) {
+	ul.twocol
+	{
+		columns: 2;
+		-webkit-columns: 2;
+		-moz-columns: 2;
+	}
 }
 
 ol
