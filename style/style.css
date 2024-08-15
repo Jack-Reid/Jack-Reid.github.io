@@ -32,7 +32,7 @@ img
 {
 	text-align: justify;
 	min-width: 600px;
-	width: 65%;	
+	width: calc(70% - 40px);	
 	margin: 0 auto 0 auto;
 	padding: 20px 20px 20px 20px;
 	background: #FFF repeat-y;
@@ -41,7 +41,7 @@ img
 	.site_content
 	{
 		margin: 0 0 0 0;
-		width: 100%;
+		width: calc(100% - 40px);
 		min-width: 0;
 		padding: 20px 20px 20px 20px;
 	}
@@ -66,7 +66,7 @@ img
 	margin-left: auto;
 	margin-right: auto;
 	min-width: 600px;
-	width: 65%;
+	width: calc(70% - 40px);
 	height: 62px;
 	padding: 0 20px 0 20px;
 	background: #5B2660 url(menu.png) repeat-x;
@@ -88,7 +88,7 @@ img
 	margin-left: auto;
 	margin-right: auto;
 	min-width: 600px;
-	width: 65%;
+	width: calc(70% - 40px);
 	position: relative;
 	height: 168px;
 	background: #8B0073 url(logo.png) 100%;
@@ -100,14 +100,14 @@ img
 		margin-left: 0;
 		margin-right: 0;
 		height: 138px;
-		width: 100%;
+		width: calc(100% - 40px);
 		min-width: 0;
 	}
 }
 
 .logo_text 
 {
-	position: absolute; 
+	position: absolute;
 	top: 20px;
 	left: 20px;
 	right: 20px;
