@@ -219,6 +219,38 @@ h5
 	color: #000;
 }
 
+figcaption {
+	text-indent: 0;
+}
+
+video {
+	width: 100%;
+}
+
+figure {
+	float: left;
+	width: calc(50% - 10px);
+	text-indent: 0;
+	padding: 5px;
+}
+@media (max-width: 600px) {
+	figure
+	{
+		width: calc(100% - 10px);
+	}
+}
+
+.row {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
 a, a:hover
 {
 	outline: none;
@@ -331,6 +363,11 @@ strong + ul.unmarked
 {
 	margin-top: 12px;
 	padding-top: 4px;
+}
+
+strong + p
+{
+	text-indent: 0;
 }
 
 ul.inline {
