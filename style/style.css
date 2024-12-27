@@ -189,32 +189,16 @@ h1
 
 h2
 {
-	font: normal 175% 'times new roman', 'times', serif;
+	font: normal 150% 'times new roman', 'times', serif;
 	color: #1293EE;
-	margin: 0 0 10px 0;
+	margin: 0 0 5px 0;
 	padding: 10px 0 5px 0;
 }
 
 h3
 {
-	font: normal 175% 'times new roman', 'times', serif;
-	color: #43423F;
-	margin: 0 0 10px 0;
-	padding: 10px 0 5px 0;
-}
-
-h4
-{
 	margin: 0;
-	padding: 10px 0 5px 0;
-	font: normal 120% 'times new roman', 'times', serif;
-	color: #1293EE;
-}
-
-h5
-{
-	margin: 0;
-	font: italic 100% 'times new roman', 'times', serif;
+	font: italic 105% 'times new roman', 'times', serif;
 	padding: 10px 0 5px 0;
 	color: #000;
 }
