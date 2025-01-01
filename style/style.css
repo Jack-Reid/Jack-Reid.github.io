@@ -47,6 +47,18 @@ img
 	}
 }
 
+.dark-mode
+{
+	color: #CEC9C5;
+}
+body.dark-mode {
+	background: #28281E;
+}
+.dark-mode .site_content
+{
+	background: #121212;
+}
+
 .header
 {
 	background: #F79F00;
@@ -205,7 +217,6 @@ h3
 	margin: 0;
 	font: italic 105% 'times new roman', 'times', serif;
 	padding: 10px 0 5px 0;
-	color: #000;
 }
 
 figcaption {
@@ -471,6 +482,10 @@ table
 {
 	margin: 10px 0 30px 0;
 }
+.dark-mode table
+{
+	border-bottom: 1px solid #FFFFFF;
+}
 
 table tr th
 {
@@ -489,6 +504,12 @@ table tr td
 	padding: 7px 4px;
 	text-align: justify;
 	vertical-align: top;
+}
+.dark-mode table tr td
+{
+	background: #28281E;
+	color: #CEC9C5;
+	border-top: 1px solid #CEC9C5;
 }
 
 .mobilemenu {
