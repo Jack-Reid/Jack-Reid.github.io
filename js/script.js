@@ -8,7 +8,6 @@ function expand() {
 	return x
 }
 
-function myFunction() {
-	var element = document.body;
-	element.classList.toggle("dark-mode");
-}
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event=>document.body.classList.toggle('dark-mode'))
+
+window.onload = function() {if (window.matchMedia('(prefers-color-scheme: dark)').matches) {document.body.classList.add('dark-mode')} else {document.body.classList.remove('dark-mode')}};
