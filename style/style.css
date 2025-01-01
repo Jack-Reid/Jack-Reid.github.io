@@ -18,7 +18,7 @@ html
 
 body
 {
-	font: normal 1.0em 'times new roman', 'times', serif;
+	font: normal 100% 'times new roman', 'times', serif;
 	background: #F0EFE2;
 	color: #777;
 }
@@ -167,10 +167,15 @@ img
 	text-decoration: underline;
 }
 
+h2 ~ ul.unmarked
+{
+	padding-top: 0.25em;
+}
+
 p
 {
 	padding: 0 0 10px 0;
-	line-height: 1.5em;
+	line-height: 1.5;
 }
 
 sup
