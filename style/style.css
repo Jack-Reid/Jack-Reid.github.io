@@ -289,13 +289,8 @@ a:hover
 	float: right;
 	width: 35%;
 	margin: 0;
+	padding: 5pt;
 	text-align: center;
-}
-@media (max-width: 600px) {
-	.float
-	{
-		width: 40%;
-	}
 }
 
 .container
