@@ -258,6 +258,16 @@ figure {
 	}
 }
 
+.assoc-logo {
+	height: 65pt;
+}
+@media (max-width: 600px) {
+	.assoc-logo
+	{
+		height: 50pt;
+	}
+}
+
 .row {
 	margin-left: -5px;
 	margin-right: -5px;
