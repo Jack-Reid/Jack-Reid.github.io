@@ -246,14 +246,14 @@ video {
 	width: 100%;
 }
 
-figure {
+figure.supp {
 	float: left;
 	width: calc(50% - 10px);
 	text-indent: 0;
 	padding: 5px;
 }
 @media (max-width: 600px) {
-	figure
+	figure.supp
 	{
 		width: calc(100% - 10px);
 	}
