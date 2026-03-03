@@ -338,7 +338,7 @@ blockquote
 
 ul
 {
-	margin: 0 20px 12px 20px;
+	margin: 0 0 12px 20px;
 	text-align: justify;
 	list-style-type: disc;
 	list-style-position: inside
@@ -452,7 +452,7 @@ ul.inline > li {
 
 ol
 {
-	margin: 0 20px 12px 20px;
+	margin: 0 0 12px 20px;
 	text-align: justify
 }
 
