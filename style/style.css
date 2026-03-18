@@ -28,6 +28,25 @@ img
 	border: 0;
 }
 
+.prof-logo
+{
+	margin-right: 0.5em;
+}
+img.prof-logo
+{
+	height: 0.875em;
+}
+i.prof-logo
+{
+	color: black;
+	background-color: white;
+}
+.dark-mode i.prof-logo
+{
+	color: white;
+	background-color: black;
+}
+
 .site_content
 {
 	text-align: justify;
