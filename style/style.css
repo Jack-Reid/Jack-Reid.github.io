@@ -82,7 +82,7 @@ body.dark-mode {
 .header
 {
 	background: #F79F00;
-	height: 230px;
+	height: 220px;
 }
 @media (max-width: 600px) {
 	.header
@@ -519,7 +519,7 @@ ul.menu li a
 	font: normal 100% 'times new roman', 'times', serif;
 	display: block;
 	float: left;
-	padding: 20px 20px 20px 20px;
+	padding: 15px;
 	text-align: justify;
 	color: #FFF;
 	text-decoration: none;
