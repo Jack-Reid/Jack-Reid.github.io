@@ -81,7 +81,7 @@ body.dark-mode {
 .header
 {
 	background: #F79F00;
-	height: 220px;
+	height: 216.5px;
 }
 @media (max-width: 600px) {
 	.header
@@ -523,6 +523,7 @@ ul.menu li a
 	color: #FFF;
 	text-decoration: none;
 	background: transparent;
+	line-height: 1.0em;
 } 
 
 ul.menu li a:hover, ul.menu li.selected a, ul.menu li.selected a:hover
