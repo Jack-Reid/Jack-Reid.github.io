@@ -1,0 +1,4 @@
+Key results from my work include:
+* illustrating the [importance of having a magnetograph on the far side](publications.html#farside) of the Sun for global, data-constrained, non-potential models of the solar corona;
+* that a magnetograph at the fifth Sun&#x2013;Earth Lagrange point would significantly improve our capacity to model the growth of filaments on the Earth-facing side of the Sun;
+* that the limited field of view from Earth of magnetographs [materially impairs](publications.html#skew_formation1) the ability of data-constrained numerical simulations of the solar corona to model the formation of strong magnetic skew at longitudes visible from Earth.

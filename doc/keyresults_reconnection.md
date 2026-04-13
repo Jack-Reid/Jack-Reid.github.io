@@ -1,0 +1,2 @@
+Key results from my work include:
+* demonstrating that the squashing factor *Q* [is not a reliable diagnostic](publications.html#Q_indicators_of_reconnection) for the location of three-dimensional reconnection.

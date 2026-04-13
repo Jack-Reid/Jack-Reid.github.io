@@ -1,0 +1,3 @@
+Much of the Sun's activity is controlled by its global magnetic field, which evolves in response to processes of surface flux transport and to the emergence of new magnetic flux through the photosphere.
+Using magnetofrictional simulations, which are informed by observational data for the emergence of new flux, I study that evolution, and how it gives rise to various significant magnetic structures in the corona.
+Especially important are the formation, growth, and eruption of filaments.

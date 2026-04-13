@@ -1,0 +1,3 @@
+MHD waves are ubiquitous in the Sun's atmosphere, and are of interest for coronal seismology and for explaining observed phenomena such as quasi-periodic pulsations (QPPs).
+As well as these, they have also been posited as potential contributors to coronal heating.
+My own interest in MHD waves includes how their propagation and dissipation in the solar corona are affected by magnetic complexity and by atmospheric stratification.
