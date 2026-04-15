@@ -1,0 +1,2 @@
+Throughout my time in the School at St Andrews, I have consistently contributed to undergraduate teaching, especially in linear mathematics, multivariable calculus, and vector calculus.
+In particular, during the academic year 2021&#x2013;2022, I lectured half of the course Multivariate Calculus, aside from which I have also given other lectures.
