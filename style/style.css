@@ -86,7 +86,7 @@ body.dark-mode {
 @media (max-width: 600px) {
 	.header
 	{
-		height: 188px;
+		height: 190px;
 		min-width: 0;
 		width: 100%;
 	}
@@ -130,7 +130,7 @@ body.dark-mode {
 	{
 		margin-left: 0;
 		margin-right: 0;
-		height: 142px;
+		height: 144px;
 		width: calc(100% - 30px);
 		min-width: 0;
 	}
