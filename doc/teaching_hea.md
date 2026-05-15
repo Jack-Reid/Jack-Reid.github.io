@@ -1,1 +1,1 @@
-As of March 2021, I am an Associate Fellow of the [Higher Education Academy](https://www.advance-he.ac.uk).
+As of March 2021, I have obtained Associate Fellowship of the Higher Education Academy (AFHEA), with [Advance HE](https://www.advance-he.ac.uk).
