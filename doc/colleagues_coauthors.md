@@ -1,0 +1,26 @@
+- [Edoardo Alaimo](https://www.researchgate.net/profile/Edoardo-Alaimo), University of Palermo
+- [Costanza Argiroffi](http://cerere.astropa.inaf.it/~argi/), University of Palermo
+- [Marco Barbera](https://www.unipa.it/persone/docenti/b/marco.barbera/en), University of Palermo
+- [Will T. Barnes](http://wtbarnes.github.io/), NASA Goddard SFC
+- [Peter J. Cargill](https://www.imperial.ac.uk/people/p.cargill), Imperial College London
+- [Lars K.&nbsp;S. Daldorff](https://www.linkedin.com/in/lars-daldorff-27426231), NASA Goddard SFC
+- [Fabio D'Anca](https://www.researchgate.net/profile/Fabio-Danca), INAF Observatory of Palermo
+- [Ineke De&nbsp;Moortel](https://www.st-andrews.ac.uk/mathematics-statistics/people/idm2/)
+- [Bart De&nbsp;Pontieu](https://www.linkedin.com/in/bart-de-pontieu-9b82a34/), Lockheed Martin SAL
+- [Alan W. Hood](https://www.st-andrews.ac.uk/mathematics-statistics/people/awh/)
+- [Thomas A. Howson](https://www.st-andrews.ac.uk/mathematics-statistics/people/tah2/)
+- [Daniel Johnson](https://www.st-andrews.ac.uk/mathematics-statistics/people/dj57/)
+- [James A. Klimchuk](https://science.gsfc.nasa.gov/sci/bio/james.a.klimchuk), NASA Goddard SFC
+- [James E. Leake](https://science.gsfc.nasa.gov/sci/bio/james.e.leake), NASA Goddard SFC
+- [Ugo Lo&nbsp;Cicero](https://www.researchgate.net/profile/Ugo-Lo-Cicero), INAF Observatory of Palermo
+- [Duncan H. Mackay](https://www.st-andrews.ac.uk/mathematics-statistics/people/dhm)
+- [Juan Mart&#237;nez-Sykora](https://orcid.org/0000-0002-0333-5717), Lockheed Martin SAL
+- [Shanwlee Sow Mondal](https://science.gsfc.nasa.gov/sci/bio/shanwlee.sowmondal), NASA Goddard SFC
+- [Paolo Pagano](https://www.unipa.it/persone/docenti/p/paolo.pagano/en/), University of Palermo
+- [Jacob D. Parker](https://www.linkedin.com/in/jacobdparker), NASA Goddard SFC
+- [Clare E. Parnell](https://www.st-andrews.ac.uk/mathematics-statistics/people/cep/)
+- [Antonino Petralia](https://www.unipa.it/persone/docenti/p/antonino.petralia01/en), University of Palermo
+- [Fabio Reale](https://www.unipa.it/persone/docenti/r/fabio.reale/en/index.html), University of Palermo
+- [Luisa Sciortino](https://www.astropa.inaf.it/personal-pages/luisa-sciortino/), INAF Observatory of Palermo
+- [Paola Testa](https://pweb.cfa.harvard.edu/people/paola-testa), Harvard Centre for Astrophysics
+- [Michela Todaro](https://www.researchgate.net/profile/Michela-Todaro), INAF Observatory of Palermo

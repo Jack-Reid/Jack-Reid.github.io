@@ -1,0 +1,6 @@
+- [Tony D. Arber](https://warwick.ac.uk/fac/sci/physics/research/cfsa/people/tda/), University of Warwick
+- [Philippa K. Browning](https://research.manchester.ac.uk/en/persons/philippa.browning), University of Manchester
+- [Gabriele Cozzo](https://www.researchgate.net/profile/Gabriele-Cozzo), Harvard Centre for Astrophysics
+- [Craig D. Johnston](https://science.gsfc.nasa.gov/sed/bio/craig.d.johnston), NASA Goddard SFC
+- [Lisa A. Upton](http://www.solarcyclescience.com/people.html#Upton), SouthWest Research Institute
+- [James W. Threlfall](https://www.abertay.ac.uk/staff-search/dr-james-threlfall/), Abertay University
