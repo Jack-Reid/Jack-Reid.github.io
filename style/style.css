@@ -215,6 +215,11 @@ sup
 	font-size: smaller;
 }
 
+sc
+{
+	font-variant-caps: all-small-caps;
+}
+
 h1
 {
 	font: normal 175% 'times new roman', 'times', serif;
