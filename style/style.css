@@ -548,11 +548,12 @@ ul.menu li a:hover, ul.menu li.selected a, ul.menu li.selected a:hover
 
 table
 {
-	margin: calc(0.25em + 7px) 0 17px 0;
+	margin: calc(0.3em + 7px) 0 17px 0;
+	border-bottom: 1px solid #47433F;
 }
 .dark-mode table
 {
-	border-bottom: 1px solid #FFFFFF;
+	border-bottom: 1px solid #CEC9C5;
 }
 
 table tr th
@@ -568,7 +569,7 @@ table tr td
 {
 	background: #F0EFE2;
 	color: #47433F;
-	border-top: 1px solid #FFF;
+	border-top: 1px solid #47433F;
 	padding: 7px 4px;
 	text-align: justify;
 	vertical-align: top;
