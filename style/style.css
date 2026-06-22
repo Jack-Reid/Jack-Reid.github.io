@@ -462,6 +462,7 @@ ul.inline {
 	list-style: none;
 	overflow: hidden;
 	padding: 0 0 4px 5px;
+	margin-top: 7px;
 }
 @media (max-width: 600px) {
 	ul.inline
