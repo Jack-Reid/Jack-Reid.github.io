@@ -1,3 +1,3 @@
-My approach to these topics is primarily computational, relying upon numerical simulations.
-However, these simulations are informed by, and their results are subsequently compared with, observational results. 
-In addition, their interpretation is augmented with insights from analytical theory.
+My approach to the topics of my research is primarily computational, relying upon performing numerical simulations.
+In many cases, their interpretation is augmented with insights offered by analytical theory.
+Moreover, several of these simulations are constrained by observational data, and their output is subsequently compared with observational results.
