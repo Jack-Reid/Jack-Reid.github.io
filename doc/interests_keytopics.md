@@ -1,4 +1,4 @@
-My present research is in solar magnetohydrodynamics (MHD) broadly.
+My present research is in solar magneto&shy;hydrodynamics (MHD) broadly.
 In particular, my major areas of research are:
 * solar [coronal heating](research.html#coronal_heating) via nanoflares;
 * the evolution of the Sun's [global coronal magnetic field](research.html#global_field_modelling);

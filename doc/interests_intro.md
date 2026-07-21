@@ -1,1 +1,1 @@
-My present research is in solar magneto&shy;hydrodynamics, studying how plasma in the Sun interacts with its magnetic field to cause the solar phenomena that we observe.
+My present research is in solar magneto&shy;hydrodynamics (MHD), studying how plasma in the Sun interacts with its magnetic field to cause the solar phenomena that we observe.
