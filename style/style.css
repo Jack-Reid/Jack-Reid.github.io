@@ -265,6 +265,10 @@ figcaption {
 	text-indent: 0;
 	font-size: smaller;
 	font-style: italic;
+	text-align: center;
+}
+figure.supp > figcaption {
+	text-align: justify;
 }
 
 video {
