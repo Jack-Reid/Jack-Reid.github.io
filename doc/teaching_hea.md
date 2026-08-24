@@ -1,1 +1,1 @@
-As of March 2021, I have obtained Associate Fellowship of the Higher Education Academy (AFHEA), with [Advance HE](https://www.advance-he.ac.uk).
+Refining my pedagogy, I obtained Associate Fellowship of the Higher Education Academy (AFHEA), with [Advance HE](https://www.advance-he.ac.uk).
