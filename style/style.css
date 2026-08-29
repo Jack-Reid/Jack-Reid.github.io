@@ -81,12 +81,12 @@ body.dark-mode {
 .header
 {
 	background: #F79F00;
-	height: 216.5px;
+	height: 186.5px;
 }
 @media (max-width: 600px) {
 	.header
 	{
-		height: 191px;
+		height: 161px;
 		min-width: 0;
 		width: 100%;
 	}
@@ -121,7 +121,7 @@ body.dark-mode {
 	min-width: 570px;
 	width: calc(70% - 30px);
 	position: relative;
-	height: 168px;
+	height: 138px;
 	background: #8B0073 url(logo.png) 100%;
 	padding: 0 15px 0 15px;
 }
@@ -130,18 +130,10 @@ body.dark-mode {
 	{
 		margin-left: 0;
 		margin-right: 0;
-		height: 145px;
+		height: 115px;
 		width: calc(100% - 30px);
 		min-width: 0;
 	}
-}
-
-.logo_text 
-{
-	position: absolute;
-	top: 15px;
-	left: 15px;
-	right: 15px;
 }
 
 .logo h1, .logo h2
@@ -152,7 +144,7 @@ body.dark-mode {
 	margin: 0;
 }
 
-.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover 
+.logo h1, .logo h1 a, .logo h1 a:hover 
 {
 	padding: 22px 0 0 0;
 	color: #FFF;
@@ -160,12 +152,7 @@ body.dark-mode {
 	text-decoration: none;
 }
 
-.logo_text h1 a .logo_colour
-{
-	color: #F05A00;
-}
-
-.logo_text h2
+.logo h2
 {
 	font-size: 100%;
 	padding: 4px 0 0 0;
