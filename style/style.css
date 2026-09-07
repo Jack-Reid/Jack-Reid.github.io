@@ -1,5 +1,4 @@
 :root {
-	--logoheight: 138px;
 	--fontsize: 14pt;
 	--pad: 15px;
 	--mobilewidth: 600px;
@@ -9,7 +8,6 @@
 
 @media (max-width: 600px) {
 	:root {
-		--logoheight: 115px;
 		--fontsize: 11pt;
 		--leftmargin: 20px;
 		--itemindent: -10px;
@@ -27,7 +25,7 @@ html {
 }
 
 body {
-	font: normal 100% 'times new roman', 'times', serif;
+	font-family: 'times new roman', 'times', serif;
 	background: #F0EFE2;
 	color: #56535C;
 }
@@ -83,7 +81,7 @@ body.dark-mode {
 
 .header {
 	background: #F79F00;
-	height: calc(var(--logoheight) + var(--fontsize) + 2*var(--pad));
+	height: auto;
 }
 @media (max-width: 600px) {
 	.header {
@@ -93,21 +91,19 @@ body.dark-mode {
 }
 
 .menubar {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto 0 auto;
+	padding: 0 var(--pad) 0 var(--pad);
 	min-width: calc(var(--mobilewidth) - 2*var(--pad));
 	width: calc(70% - 2*(var(--pad)));
 	height: calc(2*var(--pad) + var(--fontsize));
-	padding: 0 var(--pad) 0 var(--pad);
 	background: #5B2660 url(menu.png) repeat-x;
 }
 @media (max-width: 600px) {
 	.menubar {
-		margin-left: 0;
-		margin-right: 0;
+		margin: 0;
+		padding: 0;
 		width: 100%;
 		min-width: 0;
-		padding: 0 0 0 0;
 	}
 }
 
@@ -141,19 +137,17 @@ h1 ~ ul.unmarked {
 }
 
 .logo {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto 0 auto;
+	padding: 0 var(--pad) 0 var(--pad);
 	min-width: calc(var(--mobilewidth) - 2*var(--pad));
 	width: calc(70% - 2*var(--pad));
 	position: relative;
-	height: var(--logoheight);
+	height: auto;
 	background: #8B0073 url(logo.png) 100%;
-	padding: 0 var(--pad) 0 var(--pad);
 }
 @media (max-width: 600px) {
 	.logo {
-		margin-left: 0;
-		margin-right: 0;
+		margin: 0;
 		width: calc(100% - 2*var(--pad));
 		min-width: 0;
 	}
@@ -162,24 +156,27 @@ h1 ~ ul.unmarked {
 .logo h1, .logo h2 {
 	font-family: 'times new roman', 'times', serif;
 	font-style: normal;
-	font-size: 300%;
 	border-bottom: 0;
 	text-transform: none;
 	margin: 0;
-	padding: 0;
 }
 
-.logo h1, .logo h1 a {
+.logo h1 {
 	color: #FFF;
-	padding-top: 22px;
+	font-size: 300%;
+	padding: 22px 0 0 0;
 	letter-spacing: 0.02em;
+}
+
+.logo h1 a {
+	color: #FFF;
 	text-decoration: none;
 }
 
 .logo h2 {
-	font-size: 100%;
-	padding-top: 4px;
 	color: #FFF;
+	font-size: 100%;
+	padding: 0 0 22px 0;
 }
 
 .footer {
