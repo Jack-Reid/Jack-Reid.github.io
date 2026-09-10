@@ -393,20 +393,23 @@ strong + p {
 }
 
 ul.inline {
+	display: block;
 	list-style: none;
-	overflow: hidden;
-	padding: 0 0 4px 0;
 	margin-top: 7px;
-	margin-left: var(--leftmargin);
-	margin-right: var(--leftmargin);
+	margin-left: 0;
+	text-indent: 0;
 }
 
 ul.inline > li {
-	display: block;
-	float: left;
+	display: inline-block;
 	list-style: none;
 	margin-top: 0;
 	padding: 0 20px 0 0;
+}
+@media (max-width: 600px) {
+	ul.inline, ul.inline > li {
+		text-align: left;
+	}
 }
 
 md-block.twocol > ul {
