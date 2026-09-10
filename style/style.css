@@ -37,13 +37,17 @@ img {
 
 .prof-logo {
 	margin-right: 0.5em;
+	padding: 0;
+	width: 1.0em;
 }
 img.prof-logo {
 	height: 0.875em;
+	object-fit: contain;
 }
 i.prof-logo {
 	color: black;
 	background-color: white;
+	text-align: center;
 }
 .dark-mode i.prof-logo {
 	color: white;
