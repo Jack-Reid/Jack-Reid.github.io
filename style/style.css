@@ -20,6 +20,7 @@ html {
 }
 
 * {
+	font-family: 'times new roman', 'times', serif;
 	margin: 0;
 	padding: 0;
 }
@@ -108,7 +109,8 @@ body.dark-mode {
 }
 
 h1 {
-	font: normal 150% 'times new roman', 'times', serif;
+	font-size: 150%;
+	font-weight: normal;
 	color: #1293EE;
 	margin: 0 0 5px 0;
 	padding: 10px 0 5px 0;
@@ -116,7 +118,9 @@ h1 {
 
 h2 {
 	margin: 0;
-	font: italic 105% 'times new roman', 'times', serif;
+	font-size: 105%;
+	font-style: italic;
+	font-weight: normal;
 	padding: 10px 0 5px 0;
 }
 
@@ -470,6 +474,9 @@ table {
 
 table tr th {
 	background: #3B3B3B;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 105%;
 	color: #FFF;
 	padding: 7px 4px;
 	text-align: justify;
