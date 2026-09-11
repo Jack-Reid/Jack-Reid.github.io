@@ -47,6 +47,8 @@ i.prof-logo {
 	color: black;
 	background-color: white;
 	text-align: center;
+	margin-left: 0.75em;
+	margin-right: -0.25em;
 }
 .dark-mode i.prof-logo {
 	color: white;
@@ -394,7 +396,6 @@ strong + p {
 ul.inline {
 	display: block;
 	list-style: none;
-	margin-top: 7px;
 	margin-left: 0;
 	text-indent: 0;
 }
@@ -470,8 +471,58 @@ ul.menu li a {
 	line-height: 1.0em;
 }
 
+ul.prof-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+ul.prof-list > li {
+	display: block;
+	list-style-type: none;
+	text-align: left;
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+}
+@media (max-width: 600px) {
+	ul.prof-list {
+		list-style: none;
+		overflow: hidden;
+		padding: 0 0 4px 0;
+	}
+	ul.prof-list > li {
+		display: block;
+		float: left;
+		list-style: none;
+		margin-top: 0;
+		padding: 0 20px 0 0;
+		margin-left: 0;
+		text-indent: 0;
+	}
+	i.prof-logo {
+		margin-left: 0;
+		margin-right: 0.5em;
+	}
+}
+
+div.coll {
+	width: calc(75% - 0.5*var(--pad));
+	float: left;
+}
+div.colr {
+	width: calc(25% - 0.5*var(--pad));
+	float: right;
+}
+@media (max-width: 600px) {
+	div.coll, div.colr {
+		width: 100%;
+		float: none;
+	}
+}
+
 table {
-	margin: calc(0.3em + 7px) 0 17px 0;
+	margin: 0 0 10px 0;
+	border-spacing: 0;				   
 	border-bottom: 1px solid #47433F;
 }
 .dark-mode table {
