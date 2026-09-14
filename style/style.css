@@ -246,6 +246,7 @@ figure {
 	width: 35%;
 	text-indent: 0;
 	padding: 5px;
+	overflow: hidden;
 }
 
 figure.supp {
