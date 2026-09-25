@@ -97,15 +97,21 @@ body.dark-mode {
 }
 
 .menubar {
+	display: flex;
 	margin: 0 auto 0 auto;
 	padding: 0 var(--pad) 0 var(--pad);
 	min-width: calc(var(--mobilewidth) - 2*var(--pad));
 	width: calc(70% - 2*(var(--pad)));
-	height: calc(2*var(--pad) + var(--fontsize));
-	background: #5B2660 url(menu.png) repeat-x;
+	height: auto;
+	background-color: #5B2660;
+	background-image: url(menu.png);
+	background-repeat: round;
 }
 @media (max-width: 600px) {
 	.menubar {
+		display: inline;
+		height: calc(2*var(--pad) + var(--fontsize));
+		background-repeat: repeat-x;
 		margin: 0;
 		padding: 0;
 		width: 100%;
