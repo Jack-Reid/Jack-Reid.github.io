@@ -361,7 +361,7 @@ md-block.unmarked > ul {
 	margin-top: 12px;
 }
 
-ul.tight {
+ul.tight, md-block.tight > ul {
 	margin-bottom: 12px;
 }
 
@@ -387,7 +387,7 @@ ul.unmarked li > ul {
 	}
 }
 
-ul.tight li {
+ul.tight li, md-block.tight > ul li {
 	margin-bottom: 0;
 }
 
