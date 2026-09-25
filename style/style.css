@@ -595,7 +595,7 @@ table tr td {
 	color: black;
 }
 
-.mobilemenu #links a.selected, ul.menu li a:hover, ul.menu li.selected a, ul.menu li.selected a:hover {
+.mobilemenu #links a.active, ul.menu li a:hover, ul.menu li.active a, ul.menu li.active a:hover {
 	background-color: #F05A00;
 	color: white;
 }
