@@ -119,27 +119,30 @@ body.dark-mode {
 	}
 }
 
-h1 {
+h1, h2 {
 	font-size: 150%;
 	font-weight: normal;
-	color: #1293EE;
-	margin: 0 0 5px 0;
-	padding: 10px 0 5px 0;
-}
-
-h2 {
 	margin: 0;
-	font-size: 105%;
-	font-style: italic;
-	font-weight: normal;
 	padding: 10px 0 5px 0;
 }
-
 @media (max-width: 600px) {
 	h1, h2 {
 		text-align: left;
 	}
 }
+
+h1 {
+	font-size: 150%;
+	color: #1293EE;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font-size: 105%;
+	font-style: italic;
+	padding-top: 0;
+}
+
 
 h1::before, h2::before {
 	content: "";
@@ -147,7 +150,7 @@ h1::before, h2::before {
 	display: table;
 }
 
-h1 ~ ul.unmarked {
+h1 ~ ul.unmarked, h2 ~ ul.unmarked {
 	padding-top: 0.25em;
 }
 
@@ -169,7 +172,6 @@ h1 ~ ul.unmarked {
 }
 
 .logo h1, .logo h2 {
-	font-family: 'times new roman', 'times', serif;
 	font-style: normal;
 	border-bottom: 0;
 	text-transform: none;
@@ -444,7 +446,7 @@ ol li {
 	margin: 0 0 5px 10px;
 	text-align: justify;
 	padding: 0 0 4px 5px;
-	line-height: 1.0em
+	line-height: 1.0em;
 }
 
 ul.menu {
@@ -536,24 +538,24 @@ table {
 	border-bottom: 1px solid #CEC9C5;
 }
 
+table tr > * {
+	padding: 7px 4px;
+	text-align: justify;
+	vertical-align: top;
+}
+
 table tr th {
 	background: #3B3B3B;
 	font-style: italic;
 	font-weight: normal;
 	font-size: 105%;
 	color: #FFF;
-	padding: 7px 4px;
-	text-align: justify;
-	vertical-align: top;
 }
 
 table tr td {
 	background: #F0EFE2;
 	color: #47433F;
 	border-top: 1px solid #47433F;
-	padding: 7px 4px;
-	text-align: justify;
-	vertical-align: top;
 }
 .dark-mode table tr td {
 	background: #28281E;
