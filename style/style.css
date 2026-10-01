@@ -250,7 +250,7 @@ video {
 }
 
 figure {
-	float: right;
+	float: left;
 	width: 35%;
 	text-indent: 0;
 	padding: 5px;
@@ -258,7 +258,6 @@ figure {
 }
 
 figure.supp {
-	float: left;
 	width: calc(50% - 10px);
 	text-indent: 0;
 	padding: 5px;
