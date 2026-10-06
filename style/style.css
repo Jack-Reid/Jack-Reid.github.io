@@ -193,7 +193,7 @@ h1 ~ ul.unmarked, h2 ~ ul.unmarked {
 	color: var(--white);
 	font-size: 300%;
 	padding: 22px 0 0 0;
-	letter-spacing: 0.02em;
+	font-variant-caps: small-caps;
 }
 
 .logo h1 a {
@@ -442,7 +442,6 @@ ul.menu li {
 }
 
 ul.menu li a {
-	letter-spacing: 0.0em;
 	font: normal 100% 'times new roman', 'times', serif;
 	display: block;
 	float: left;
