@@ -172,13 +172,13 @@ h1 ~ ul.unmarked, h2 ~ ul.unmarked {
 	width: calc(70% - 2*var(--pad));
 	position: relative;
 	height: auto;
+	border-bottom: 1px solid var(--white);
 }
 @media (max-width: 600px) {
 	.logo {
 		margin: 0;
 		width: calc(100% - 2*var(--pad));
 		min-width: 0;
-		border-bottom: solid var(--white) 1px;
 	}
 }
 
@@ -442,15 +442,20 @@ ul.menu li {
 }
 
 ul.menu li a {
-	font: normal 100% 'times new roman', 'times', serif;
 	display: block;
 	float: left;
 	padding: var(--pad);
 	text-align: justify;
 	color: var(--white);
 	text-decoration: none;
-	background: transparent;
 	line-height: 1.0em;
+}
+ul.menu li a:hover {
+	color: var(--black);
+}
+ul.menu li.active a {
+	color: var(--white);
+	text-decoration: underline 1.5px;
 }
 
 ul.prof-list {
@@ -561,7 +566,7 @@ table tr td {
 	background-color: var(--darkorange);
 	color: var(--black);
 }
-.mobilemenu #links a.active, ul.menu li a:hover, ul.menu li.active a {
+.mobilemenu a.active {
 	background-color: var(--darkorange);
 	color: var(--white);
 }
