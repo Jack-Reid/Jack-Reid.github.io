@@ -1,11 +1,10 @@
 :root {
 	--fontsize: 14pt;
-	--pad: 15px;
-	--mobilewidth: 600px;
 	--leftmargin: 30px;
 	--itemindent: -15px;
+	--pad: 15px;
+	--mobilewidth: 600px;
 }
-
 @media (max-width: 600px) {
 	:root {
 		--fontsize: 11pt;
@@ -14,9 +13,32 @@
 	}
 }
 
-html {
-	height: 100%;
-	font-size: var(--fontsize);
+:root {
+	--orange: #F79F00;
+	--darkorange: #F05A00;
+	--white: #FFFFFF;
+	--black: #000000;
+	--offblack: #121212;
+	--lightblack: #28281E;
+	--palegrey: #CEC9C5;
+	--blue: #1293EE;
+	--offwhite: #F0EFE2;
+}
+:root {
+	--colour: #56535C;
+	--bodybg: var(--offwhite);
+	--sitebg: var(--white);
+	--headfont: var(--blue);
+	--tablecolour: #47433F;
+	--tablebg: var(--offwhite);
+	--tableheadbg: #3B3B3B;
+}
+:root .dark-mode {
+	--colour: var(--palegrey);
+	--bodybg: var(--lightblack);
+	--sitebg: var(--offblack);
+	--tablecolour: var(--palegrey);
+	--tablebg: var(--lightblack);
 }
 
 * {
@@ -25,68 +47,13 @@ html {
 	padding: 0;
 }
 
-body {
-	background: #F0EFE2;
-	color: #56535C;
-}
-
-img {
-	border: 0;
-}
-
-.prof-logo {
-	margin-right: 0.5em;
-	padding: 0;
-	width: 1.0em;
-}
-img.prof-logo {
-	height: 0.875em;
-	object-fit: contain;
-}
-i.prof-logo {
-	color: black;
-	background-color: white;
-	text-align: center;
-	margin-left: 0.75em;
-	margin-right: -0.25em;
-}
-.dark-mode i.prof-logo {
-	color: white;
-	background-color: #121212;
-}
-i.fa {
+html {
+	height: 100%;
 	font-size: var(--fontsize);
 }
 
-.site_content {
-	text-align: justify;
-	overflow: hidden;
-	min-width: calc(var(--mobilewidth) - 2*var(--pad));
-	width: calc(70% - 2*var(--pad));
-	margin: 0 auto 0 auto;
-	padding: var(--pad);
-	background: #FFF repeat-y;
-}
-@media (max-width: 600px) {
-	.site_content {
-		margin: 0;
-		width: calc(100% - 2*var(--pad));
-		min-width: 0;
-	}
-}
-
-.dark-mode {
-	color: #CEC9C5;
-}
-body.dark-mode {
-	background: #28281E;
-}
-.dark-mode .site_content {
-	background: #121212;
-}
-
 .header {
-	background: #F79F00;
+	background: var(--orange);
 	height: auto;
 }
 @media (max-width: 600px) {
@@ -103,7 +70,6 @@ body.dark-mode {
 	min-width: calc(var(--mobilewidth) - 2*var(--pad));
 	width: calc(70% - 2*(var(--pad)));
 	height: auto;
-	background-color: #5B2660;
 	background-image: url(menu.png);
 	background-repeat: round;
 }
@@ -117,6 +83,55 @@ body.dark-mode {
 		width: 100%;
 		min-width: 0;
 	}
+}
+
+body {
+	color: var(--colour);
+	background: var(--bodybg);
+}
+
+.site_content {
+	text-align: justify;
+	overflow: hidden;
+	min-width: calc(var(--mobilewidth) - 2*var(--pad));
+	width: calc(70% - 2*var(--pad));
+	margin: 0 auto 0 auto;
+	padding: var(--pad);
+	background: var(--sitebg);
+}
+@media (max-width: 600px) {
+	.site_content {
+		margin: 0;
+		width: calc(100% - 2*var(--pad));
+		min-width: 0;
+	}
+}
+
+img {
+	border: 0;
+}
+.prof-logo {
+	margin-right: 0.5em;
+	padding: 0;
+	width: 1.0em;
+}
+img.prof-logo {
+	height: 0.875em;
+	object-fit: contain;
+}
+i.prof-logo {
+	color: var(--black);
+	background-color: var(--white);
+	text-align: center;
+	margin-left: 0.75em;
+	margin-right: -0.25em;
+}
+.dark-mode i.prof-logo {
+	color: var(--white);
+	background-color: var(--darkbg);
+}
+i.fa {
+	font-size: var(--fontsize);
 }
 
 h1, h2 {
@@ -133,7 +148,7 @@ h1, h2 {
 
 h1 {
 	font-size: 150%;
-	color: #1293EE;
+	color: var(--headfont);
 	margin-bottom: 5px;
 }
 
@@ -161,7 +176,7 @@ h1 ~ ul.unmarked, h2 ~ ul.unmarked {
 	width: calc(70% - 2*var(--pad));
 	position: relative;
 	height: auto;
-	background: #8B0073 url(logo.png) 100%;
+	background: url(logo.png) 100%;
 }
 @media (max-width: 600px) {
 	.logo {
@@ -179,46 +194,21 @@ h1 ~ ul.unmarked, h2 ~ ul.unmarked {
 }
 
 .logo h1 {
-	color: #FFF;
+	color: var(--white);
 	font-size: 300%;
 	padding: 22px 0 0 0;
 	letter-spacing: 0.02em;
 }
 
 .logo h1 a {
-	color: #FFF;
+	color: var(--white);
 	text-decoration: none;
 }
 
 .logo h2 {
-	color: #FFF;
+	color: var(--white);
 	font-size: 100%;
 	padding: 0 0 22px 0;
-}
-
-.footer {
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	font-family: 'times new roman', 'times', serif;
-	font-style: normal;
-	font-size: 100%;
-	height: 33px;
-	padding: 24px 0 5px 0;
-	text-align: center;
-	background: #29425E url(footer.png) repeat-x;
-	color: #FFF;
-	letter-spacing: 0.1em;
-}
-
-.footer a {
-	color: #FFF;
-	text-decoration: none;
-}
-
-.footer a:hover {
-	color: #FFF;
-	text-decoration: underline;
 }
 
 p {
@@ -305,7 +295,7 @@ figure.supp {
 a, a:hover {
 	outline: none;
 	text-decoration: underline;
-	color: #F05A00;
+	color: var(--darkorange);
 }
 
 a:hover {
@@ -324,17 +314,6 @@ a:hover {
 	margin: 0;
 	padding: 5pt;
 	text-align: center;
-}
-
-.container {
-	overflow: hidden;
-}
-
-blockquote {
-	margin: 20px 0;
-	padding: 10px 20px 0 20px;
-	border: 1px solid #E5E5DB;
-	background: #FFF;
 }
 
 ul {
@@ -473,7 +452,7 @@ ul.menu li a {
 	float: left;
 	padding: var(--pad);
 	text-align: justify;
-	color: #FFF;
+	color: var(--white);
 	text-decoration: none;
 	background: transparent;
 	line-height: 1.0em;
@@ -531,10 +510,7 @@ div.colr {
 table {
 	margin: 0 0 10px 0;
 	border-spacing: 0;				   
-	border-bottom: 1px solid #47433F;
-}
-.dark-mode table {
-	border-bottom: 1px solid #CEC9C5;
+	border-bottom: 1px solid var(--tablecolour);
 }
 
 table tr > * {
@@ -544,28 +520,23 @@ table tr > * {
 }
 
 table tr th {
-	background: #3B3B3B;
+	background: var(--tableheadbg);
 	font-style: italic;
 	font-weight: normal;
 	font-size: 105%;
-	color: #FFF;
+	color: var(--white);
 }
 
 table tr td {
-	background: #F0EFE2;
-	color: #47433F;
-	border-top: 1px solid #47433F;
-}
-.dark-mode table tr td {
-	background: #28281E;
-	color: #CEC9C5;
-	border-top: 1px solid #CEC9C5;
+	background: var(--tablebg);
+	color: var(--tablecolour);
+	border-top: 1px solid var(--tablecolour);
 }
 
 .mobilemenu {
 	display: none;
 	overflow: hidden;
-	background-color: #F79F00;
+	background-color: var(--orange);
 	position: relative;
 }
 @media (max-width: 600px) {
@@ -577,26 +548,25 @@ table tr td {
 	display: none;
 }
 .mobilemenu a {
-	color: white;
+	color: var(--white);
 	padding: var(--pad);
 	text-decoration: none;
 	font-size: var(--fontsize);
 	display: block;
 }
 .mobilemenu a.icon {
-	background: #F79F00;
-	color: white;
+	background: var(--orange);
+	color: var(--white);
 	display: block;
 	position: relative;
 	right: 0;
 	top: 0;
 }
 .mobilemenu a:hover {
-	background-color: #F05A00;
-	color: black;
+	background-color: var(--darkorange);
+	color: var(--black);
 }
-
-.mobilemenu #links a.active, ul.menu li a:hover, ul.menu li.active a, ul.menu li.active a:hover {
-	background-color: #F05A00;
-	color: white;
+.mobilemenu #links a.active, ul.menu li a:hover, ul.menu li.active a {
+	background-color: var(--darkorange);
+	color: var(--white);
 }
