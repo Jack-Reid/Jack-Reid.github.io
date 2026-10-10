@@ -14,31 +14,141 @@
 }
 
 :root {
-	--orange: #F79F00;
-	--darkorange: #F05A00;
-	--white: #FFFFFF;
-	--black: #000000;
-	--offblack: #121212;
-	--lightblack: #28281E;
-	--palegrey: #CEC9C5;
-	--blue: #1293EE;
-	--offwhite: #F0EFE2;
+	--red: 				#FF0000;
+	--green: 			#00FF00;
+	--blue: 			#0000FF;
+	--brown: 			#AF8040;
+	--lime: 			#AFFF00;
+	--orange: 			#FF8000;
+	--pink: 			#FFAFAF;
+	--purple: 			#AF0040;
+	--teal: 			#008080;
+	--violet: 			#800080;
+	--cyan: 			#00FFFF;
+	--magenta: 			#FF00FF;
+	--yellow: 			#FFFF00;
+	--olive: 			#808000;
+	--black: 			#000000;
+	--darkgrey: 		#404040;
+	--grey: 			#808080;
+	--lightgrey: 		#AFAFAF;
+	--white: 			#FFFFFF;
 }
 :root {
-	--colour: #56535C;
-	--bodybg: var(--offwhite);
-	--sitebg: var(--white);
-	--headfont: var(--blue);
-	--tablecolour: #47433F;
-	--tablebg: var(--offwhite);
-	--tableheadbg: #3B3B3B;
+	--black: 			#000000;
+	--white: 			#FFFFFF;
+	--red: 				#F23333;
+	--darkgrey2:		#737373;
+	--lightgrey2:		#D3D3D3;
+	--orange: 			#F28C26;
+	--burgundy: 		#980000;
+	--purple: 			#8055CC;
+	--lightblue: 		#3873B3;
+	--green: 			#59B34D;
+	--cerulean: 		#0081A7;
+	--darkcyan: 		#4D908E;
+	--verdigris: 		#00AFB9;
+	--lightskyblue: 	#B1DFFC;
+	--darkred: 			#D60000;
+	--palegreen: 		#A6FCA6;
+	--lightorange: 		#FFBB3D;
+	--lavender: 		#9090E9;
+	--firebrick: 		#CE2727;
+	--lightblack: 		#3D3D3D;
+}
+:root {
+	--Apricot: 			#FBB982;
+	--Aquamarine: 		#00B5BE;
+	--Bittersweet: 		#C04F17;
+	--Black: 			#221E1F;
+	--Blue: 			#2D2F92;
+	--BlueGreen: 		#00B3B8;
+	--BlueViolet: 		#473992;
+	--BrickRed: 		#B6321C;
+	--Brown: 			#792500;
+	--BurntOrange: 		#F7921D;
+	--CadetBlue: 		#74729A;
+	--CarnationPink: 	#F282B4;
+	--Cerulean: 		#00A2E3;
+	--CornflowerBlue: 	#41B0E4;
+	--Cyan: 			#00AEEF;
+	--Dandelion: 		#FDBC42;
+	--DarkOrchid: 		#A4538A;
+	--Emerald: 			#00A99D;
+	--ForestGreen: 		#009B55;
+	--Fuchsia: 			#8C368C;
+	--Goldenrod: 		#FFDF42;
+	--Grey: 			#949698;
+	--Green: 			#00A64F;
+	--GreenYellow: 		#DFE674;
+	--JungleGreen:	 	#00A99A;
+	--Lavender: 		#F49EC4;
+	--LimeGreen: 		#8DC73E;
+	--Magenta: 			#EC008C;
+	--Mahogany: 		#A9341F;
+	--Maroon: 			#AF3235;
+	--Melon: 			#F89E7B;
+	--MidnightBlue: 	#006795;
+	--Mulberry: 		#A93C93;
+	--NavyBlue: 		#006EB8;
+	--OliveGreen: 		#3C8031;
+	--Orange: 			#F58137;
+	--OrangeRed:	 	#ED135A;
+	--Orchid: 			#AF72B0;
+	--Peach: 			#F7965A;
+	--Periwinkle: 		#7977B8;
+	--PineGreen: 		#008B72;
+	--Plum: 			#92268F;
+	--ProcessBlue: 		#00B0F0;
+	--Purple: 			#99479B;
+	--RawSienna: 		#974006;
+	--Red: 				#ED1B23;
+	--RedOrange: 		#F26035;
+	--RedViolet: 		#A1246B;
+	--Rhodamine: 		#EF559F;
+	--RoyalBlue: 		#0071BC;
+	--RoyalPurple: 		#613F99;
+	--RubineRed: 		#ED017D;
+	--Salmon: 			#F69289;
+	--SeaGreen: 		#3FBC9D;
+	--Sepia: 			#671800;
+	--SkyBlue: 			#46C5DD;
+	--SpringGreen: 		#C6DC67;
+	--Tan: 				#DA9D76;
+	--TealBlue: 		#00AEB3;
+	--Thistle: 			#D883B7;
+	--Turquoise: 		#00B4CE;
+	--Violet: 			#58429B;
+	--VioletRed: 		#EF58A0;
+	--White: 			#FFFFFF;
+	--WildStrawberry: 	#EE2967;
+	--Yellow: 			#FFF200;
+	--YellowGreen: 		#98CC70;
+	--YellowOrange: 	#FAA21A;
+}
+:root {
+	--mctint: 			#E7EDF3;
+}
+
+:root {
+	--textcol: 			var(--darkgrey2);
+	--linkcol: 			var(--RedOrange);
+	--sechead: 			var(--Cerulean);
+	--headbg: 			var(--YellowOrange);
+	--bodybg: 			var(--mctint);
+	--sitebg: 			var(--white);
+	--tablecolour: 		var(--darkgrey2);
+	--tablebg: 			var(--mctint);
+	--tableheadbg: 		var(--lightblack);
 }
 :root .dark-mode {
-	--colour: var(--palegrey);
-	--bodybg: var(--lightblack);
-	--sitebg: var(--offblack);
-	--tablecolour: var(--palegrey);
-	--tablebg: var(--lightblack);
+	--textcol: 			var(--lightgrey2);
+	--sechead: 			var(--Cyan);
+	--headbg: 			var(--YellowOrange);
+	--bodybg: 			var(--lightblack);
+	--sitebg: 			var(--Black);
+	--tablecolour: 		var(--lightgrey2);
+	--tablebg: 			var(--lightblack);
 }
 
 * {
@@ -53,7 +163,7 @@ html {
 }
 
 .header {
-	background: var(--orange);
+	background: var(--headbg);
 	height: auto;
 }
 @media (max-width: 600px) {
@@ -83,7 +193,7 @@ html {
 }
 
 body {
-	color: var(--colour);
+	color: var(--textcol);
 	background: var(--bodybg);
 }
 
@@ -145,7 +255,7 @@ h1, h2 {
 
 h1 {
 	font-size: 150%;
-	color: var(--headfont);
+	color: var(--sechead);
 	margin-bottom: 5px;
 }
 
@@ -291,7 +401,7 @@ figure.supp {
 a, a:hover {
 	outline: none;
 	text-decoration: underline;
-	color: var(--darkorange);
+	color: var(--linkcol);
 }
 
 a:hover {
@@ -536,7 +646,7 @@ table tr td {
 .mobilemenu {
 	display: none;
 	overflow: hidden;
-	background-color: var(--orange);
+	background-color: var(--headbg);
 	position: relative;
 }
 @media (max-width: 600px) {
@@ -555,7 +665,7 @@ table tr td {
 	display: block;
 }
 .mobilemenu a.icon {
-	background: var(--orange);
+	background: var(--headbg);
 	color: var(--white);
 	display: block;
 	position: relative;
