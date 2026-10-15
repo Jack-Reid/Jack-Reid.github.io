@@ -139,7 +139,7 @@
 	--sitebg: 			var(--white);
 	--tablecolour: 		var(--darkgrey2);
 	--tablebg: 			var(--mctint);
-	--tableheadbg: 		var(--lightblack);
+	--tableheadbg: 		var(--CornflowerBlue);
 }
 :root .dark-mode {
 	--textcol: 			var(--lightgrey2);
@@ -149,6 +149,7 @@
 	--sitebg: 			var(--Black);
 	--tablecolour: 		var(--lightgrey2);
 	--tablebg: 			var(--lightblack);
+	--tableheadbg: 		var(--BurntOrange);
 }
 
 * {
@@ -632,7 +633,7 @@ table tr > * {
 table tr th {
 	background: var(--tableheadbg);
 	font-style: italic;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 105%;
 	color: var(--white);
 }
