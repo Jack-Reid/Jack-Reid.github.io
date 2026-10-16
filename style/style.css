@@ -505,6 +505,9 @@ ul.inline > li {
 		text-align: left;
 	}
 }
+ul.inline.assoc-logo {
+	text-align: left;
+}
 
 md-block.twocol > ul {
 	columns: 2;
