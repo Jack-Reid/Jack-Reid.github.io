@@ -607,11 +607,11 @@ ul.prof-list > li {
 }
 
 div.coll {
-	width: calc(77.5% - 0.5*var(--pad));
+	width: calc(75% - 0.5*var(--pad));
 	float: left;
 }
 div.colr {
-	width: calc(22.5% - 0.5*var(--pad));
+	width: calc(25% - 0.5*var(--pad));
 	float: right;
 }
 @media (max-width: 600px) {
