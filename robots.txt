@@ -10,13 +10,31 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeWeb
+Disallow: /
+
 User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-User
 Disallow: /
 
 User-agent: Google-Extended
 Disallow: /
 
 User-agent: Gemini
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Amazon
 Disallow: /
 
 User-agent: CCBot
@@ -47,6 +65,27 @@ User-agent: YouBot
 Disallow: /
 
 User-agent: DuckAssistBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: Timpibot
 Disallow: /
 
 User-agent: *
