@@ -1,9 +1,9 @@
-function expand() {
-	var x = document.getElementById("links");
-	if (x.style.display === "block") {
+function expand(id,disp) {
+	var x = document.getElementById(id);
+	if (x.style.display === disp) {
 		x.style.display = "none";
 	} else {
-		x.style.display = "block";
+		x.style.display = disp;
 	}
 	return x
 }
