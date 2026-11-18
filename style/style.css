@@ -589,6 +589,7 @@ ul.prof-list > li {
 	text-align: left;
 	margin-left: 1.5em;
 	text-indent: -1.5em;
+	line-height: 1.25em;
 }
 @media (max-width: 600px) {
 	ul.prof-list {
